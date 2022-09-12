@@ -1,0 +1,21 @@
+.header {
+  background-color: gainsboro;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+.list-style {
+  display: flex;
+  gap: 10rem;
+  font-size: 20px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: darkslategrey;
+}
+.music-container {
+  background-image: url(download.jfif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: max-content;
+}
